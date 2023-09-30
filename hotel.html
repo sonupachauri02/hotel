@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.img
+{
+    position:absolute;
+}
+
+.topnav {
+    
+  overflow: hidden;
+  background-color:#5900ff;
+}
+
+.topnav a {
+    top:20%;
+  float: left;
+  color: #190619;
+  text-align: center;
+  padding: 8px 12px;
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: 70px;
+  
+}
+.topnav a.log{
+    top: 20%;
+    float: right ;
+    
+
+}
+
+
+.topnav a:hover {
+  color: #fff;
+ 
+}
+.topnav a::after {
+  content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    bottom: 6px;
+    background: #fff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+ 
+}
+.topnav a.active {
+  color:#fff;
+}
+
+</style>
+</head>
+<body>
+
+<div class="topnav">
+    <center><h1>Make mytrip</h1></center>
+  <a class="active" href="hotel.html">Home</a>
+  <a href="#about">About</a>
+  <a href="#room">Rooms</a>
+  <a href="#sevices">Services</a>
+  <a href="login.html" class="log">LOGIN</a>
+</div>
+<div class="img">
+    <img src="a.jpg" height="700px" width="1520px" >
+</div>
+
+
+
+
+</body>
+</html>
